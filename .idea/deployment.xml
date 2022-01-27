@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="wg-server" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="wg-server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="studnet.sh" local="$PROJECT_DIR$/studnet.sh" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

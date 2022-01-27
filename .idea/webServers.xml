@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9d576af1-14d2-4922-b95b-fd98dbd087f9" name="wg-server">
+        <fileTransfer rootFolder="/usr/local/bin/" accessType="SFTP" host="192.168.1.3" port="36134" sshConfigId="02933891-f28e-4f29-ab05-5e941910746b" sshConfig="pi@192.168.1.3:36134 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
