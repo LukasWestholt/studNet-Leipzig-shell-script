@@ -1,0 +1,10 @@
+[Unit]
+Description=StudNET permanent login
+After=network.target
+[Service]
+ExecStart=/usr/local/bin/studnet.sh
+SyslogIdentifier=StudNET Client
+StandardOutput=journal
+StandardError=journal
+[Install]
+WantedBy=multi-user.target
