@@ -3,7 +3,6 @@ studnet_nr=""
 studnet_password=""
 studnet_server_ip="139.18.143.253"
 known_hosts_filepath="/home/USERNAME/.ssh/known_hosts"
-identity_file_filepath="/home/USERNAME/.ssh/id_rsa"
 host=https://google.de
 
 while true; do
@@ -26,7 +25,6 @@ while true; do
       ssh \
       -tt \
       -o "UserKnowHostsFile=$known_hosts_filepath" \
-      -o "IdentityFile=$identity_file_filepath" \
       -o "ServerAliveInterval 15" \
       -o "ServerAliveCountMax 2" \
       -o "ConnectTimeout 10" \
