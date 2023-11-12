@@ -15,7 +15,7 @@ The client runs quietly as a service in the background.
     sudo apt update && sudo apt upgrade
     sudo apt install openssh-client sshpass ca-certificates curl unattended-upgrades $additional_packages -y
     nano studnet.sh
-    <edit studnet_nr and studnet_nr and save changes by ctrl-s then ctrl-x >
+    <edit studnet_nr, studnet_nr, and known_hosts_filepath then save changes by ctrl-s then ctrl-x >
     sudo cp studnet.sh /usr/local/bin/studnet.sh
     sudo chmod u+rwx /usr/local/bin/studnet.sh
     sudo cp studnet.service /etc/systemd/system/studnet.service

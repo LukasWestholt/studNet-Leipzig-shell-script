@@ -2,6 +2,7 @@
 studnet_nr=""
 studnet_password=""
 studnet_server_ip="139.18.143.253"
+known_hosts_filepath="/home/USERNAME/.ssh/known_hosts"
 host=https://google.de
 
 while true; do
@@ -23,6 +24,7 @@ while true; do
       -p "$studnet_password" \
       ssh \
       -tt \
+      -o "UserKnowHostsFile=$known_hosts_filepath" \
       -o "ServerAliveInterval 15" \
       -o "ServerAliveCountMax 2" \
       -o "ConnectTimeout 10" \
